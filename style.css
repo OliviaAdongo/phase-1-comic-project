@@ -1,49 +1,45 @@
 body{
     background-color: lightcyan;
 }
-/* .image-container{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100;
-    height: 100;
-    object-fit: cover;
-    z-index: -2;
-} */
-
-    
+/* * {
+    box-sizing: border-box;
+  }
+     */
 .MyClass{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* add position relative this will prevent the children from moving out of the parent container */
     position: relative;
   }
   
-  /* .MyClass__background {
-      background-image: url(https://www.incimages.com/uploaded_files/image/1920x1080/getty_509107562_2000133320009280346_351827.jpg);
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
-      height: 100vh;
-    }
-   */
   .rectangle {
-    position: absolute; /* will move the rectangle to the top left corner */
-    right: 5px; /* move to the right with 5px space on the right with 5px space on the right */
-    bottom: 50%; /* this and translate center the image vertically */
-    transform: translateY(50%);
-    border: 4px solid darkgrey;
+    background-color: pink;
+    border-radius: 25px;
+    height: 50%;
+    width: 50%;
+    position: absolute; 
+    right: 5px; 
+    bottom: 50%; 
+    transform: translateY(50%); 
+    border: 4px solid black;
   }
-  
-  /* Center and display the image & text side by side */
+
+
   .rectangle-content {
       display: flex;
       align-items: center;
       justify-content: space-between;
       padding: 20px;
   }
-  
+  .container{
+    text-align: center;
+  }
+  #btn{
+    border-radius: 25px;
+    font-size: 18px;
+  }
   
 h2{
+    text-align: center;
     color: lightslategrey;
 }
