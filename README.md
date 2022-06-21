@@ -1,6 +1,16 @@
 #  STUCK ON COMICS
-AUTHOR: Olivia Akinyi Adongo
+## AUTHOR: Olivia Akinyi Adongo
+
+## Description
+The application is intended to lessen the time it takes an individual to view a list of comics. 
+
+## Instructions
+Once the user opens the application they are able to see the name of the application "Stuck on comics" and some text beneath it "Your comic guide". Below that there is a button that allows them to click which upon clicking a pop up window will be displayed containing a list of comics that are from "Webtoon". The list is updated accordeing to the list on Webtoon. The objective of the application is to let a user click the button and display a list.
+
+##  Links
+Github: https://github.com/OliviaAdongo/phase-1-comic-project
 
 
 
-The web application intended to be developed should enable users to view a list of trending comics with just a click of a button. Once the button is clicked a window will pop up displaying the list of trending comics from the linked to the API of Webtoon which is home to various comics of all kinds of genres. Instead of a user going to search through various lists that may be outdated, the intended web application should be able to help them save time and enable them to access the list fast. The problem of scrolling through long outdated lists will then be solved with a click of a button.
+<!-- 
+A well documented Readme file on Github A project README that includes: - project or program name - author name - description of project - project setup instructions - link to live site on GitHub Pages - copyright and license information -->

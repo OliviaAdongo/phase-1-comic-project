@@ -1,39 +1,60 @@
-body{
-    background-color: lightcyan;
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+*{
+
+  margin-top: 0px;
+  padding: 0;
+  margin-bottom: 0px;
 }
+
 /* * {
     box-sizing: border-box;
   }
      */
-.MyClass{
+/* .MyClass{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     position: relative;
-  }
+   
+  } */
   
-  .rectangle {
+  .rectangle-pink {
     background-color: pink;
     border-radius: 25px;
-    height: 50%;
-    width: 50%;
-    position: absolute; 
+    align-items: center;
+    position: absolute;
+    padding-left: 4a00px;
+    padding-right: 400px; 
     right: 5px; 
     bottom: 50%; 
     transform: translateY(50%); 
     border: 4px solid black;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: -150px;
+
   }
 
 
-  .rectangle-content {
+  /* .rectangle-content {
       display: flex;
       align-items: center;
       justify-content: space-between;
       padding: 20px;
-  }
-  .container{
+      padding-top: 85px;
+      padding-bottom: 85px;
+      padding-left: 50px;
+      padding-right: 50px;
+      background-color: red;
+      
+  } */
+  .container-text{
     text-align: center;
+    
   }
+
   #btn{
     border-radius: 25px;
     font-size: 18px;
@@ -41,5 +62,16 @@ body{
   
 h2{
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
     color: lightslategrey;
+   
+}
+h3{
+  color: lightslategrey;
+}
+#image1{
+  height: 100%;
+  width: 100%;
+  margin-top: 0%;
+  margin-bottom: 0%;
 }
